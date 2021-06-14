@@ -4,10 +4,6 @@ onready var doorSprite = $AnimatedSprite
 onready var doorWall = $CollisionShape2D
 
 export var isUnlocked = false
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -16,7 +12,6 @@ func _ready():
  pass
 
 func animate_unlock_door():
-
 	
 	doorSprite.play("Unlock")
 	yield(doorSprite,"animation_finished")

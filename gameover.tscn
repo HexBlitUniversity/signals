@@ -1,0 +1,32 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = -1888.0
+margin_top = -1392.0
+margin_right = 2176.0
+margin_bottom = 1288.0
+color = Color( 0.0784314, 0.0784314, 0.0784314, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -184.0
+margin_top = -8.0
+margin_right = 48.043
+margin_bottom = 46.0
+rect_scale = Vector2( 2, 2 )
+size_flags_vertical = 1
+text = "Congratulations You Win!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
